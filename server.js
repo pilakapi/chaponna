@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const Database = require('better-sqlite3');
+
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const https = require('https');
